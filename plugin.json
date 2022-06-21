@@ -1,0 +1,21 @@
+{
+    "main": "./dist/index.html",
+    "preload": "./dist/main.js",
+    "logo": "logo.png",
+    "features": [
+        {
+            "code": "链接",
+            "explain": "加载链接",
+            "cmds": [
+                "链接"
+            ]
+        },
+        {
+            "code": "链接编辑",
+            "explain": "在 VsCode 编辑链接",
+            "cmds": [
+                "链接编辑"
+            ]
+        }
+    ]
+}
