@@ -27,6 +27,16 @@ async function main() {
             window.utools.hideMainWindow()
             window.utools.outPlugin()
         }
+        else if (code == 'rgb_to_hex') {
+            const rgb = payload
+            const hex = Color(rgb).hex()
+            const code = hex
+            console.log('code', code)
+            utools.copyText(code)
+            window.utools.hideMainWindow()
+            window.utools.outPlugin()
+        }
+        
         // console.log('md5', md5)
         // return
         // if (code == '链接编辑') {
